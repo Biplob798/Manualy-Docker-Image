@@ -1,3 +1,6 @@
 FROM ubuntu:24.04
 RUN echo "Hello World" > /hello.txt
 CMD["cat", "/hello.txt"]
+
+# docker build .
+# docker run -it manualy_image bash
